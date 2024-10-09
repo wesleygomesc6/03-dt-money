@@ -1,20 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 12000,
-            "createdAt": "2024-10-08T14:12:37.113Z"
-        },
-        {
-            "id": 2,
-            "description": "Compra de um opala",
-            "type": "outcome",
-            "category": "Compra",
-            "price": -15000,
-            "createdAt": "2024-10-08T14:14:10.113Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2024-10-08T14:12:37.113Z"
+    },
+    {
+      "id": 2,
+      "description": "Compra de um opala",
+      "type": "outcome",
+      "category": "Compra",
+      "price": 15000,
+      "createdAt": "2024-10-08T14:14:10.113Z"
+    },
+    {
+      "description": "Completar tanque do carro",
+      "price": 350,
+      "category": "Combustível",
+      "type": "outcome",
+      "createdAt": "2024-10-09T13:29:35.988Z",
+      "id": 3
+    },
+    {
+      "description": "Pagamento Setembro",
+      "price": 7310,
+      "category": "Salário",
+      "type": "income",
+      "createdAt": "2024-10-09T13:31:37.616Z",
+      "id": 4
+    },
+    {
+      "description": "Creche setembro",
+      "price": 1200,
+      "category": "Educação",
+      "type": "outcome",
+      "createdAt": "2024-10-09T13:41:53.085Z",
+      "id": 5
+    }
+  ]
 }
